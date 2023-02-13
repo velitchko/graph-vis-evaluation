@@ -1,0 +1,60 @@
+#surveyResult {
+    margin: auto;
+    height: 20px;
+    width: 165px;
+    // button size
+}
+
+.download_btn {
+    font-size: 0.85em;
+    font-weight: bold;
+    line-height: 2em;
+    border: none;
+    min-width: 100px;
+    cursor: pointer;
+    padding: 0 2em;
+    border-radius: 2px;
+    color: white;
+    background-color: #1ab394;
+}
+
+::ng-deep .sv_qstn_error_top {
+    color: red;
+}
+
+::ng-deep #embedded-angular {
+    display: block;
+    border: none;
+    height: 75vh;
+    min-height: 75vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+::ng-deep #hidden {
+    display: none;
+}
+
+::ng-deep .sv_main .sv_container .sv_body .sv_p_root .sv_q {
+    overflow: hidden;
+}
+
+::ng-deep .sv_start_btn,
+::ng-deep .sv_prev_btn,
+::ng-deep .sv_next_btn,
+::ng-deep .sv_complete_btn {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+    padding-left: 6em !important;
+    padding-right: 6em !important;
+}
+
+::ng-deep .sv_next_btn {
+    position: absolute;
+    top: 5em;
+    right: 2em;
+}
+
+::ng-deep .sv_progress {
+    margin-bottom: 6em !important;
+}

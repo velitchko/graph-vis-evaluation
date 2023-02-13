@@ -1,0 +1,7 @@
+<!-- <p>[DEBUG] Group: {{ studyGroup }}</p> -->
+<div id="surveyElement"></div>
+<div id="surveyResult" *ngIf="isSurveyComplete">
+    <a [download]="fileName" [href]="dataUri">
+        <input type="button" class="download_btn" value="Download Results">
+    </a>
+</div>
